@@ -327,14 +327,37 @@ def eliza(rule_lst):
 		print "Your time is up. We can continue next week."
 
 def main(inp):
+	# My roomate thinks I am disorganized
 	r1 = ['rule', 1, ['My', '_X', 'thinks', 'I', 'am', '_Y'], ['Do', 'you', 'think', 'you', 'are', '_Y', '?']]
-	r2 = ['rule', 2, ['My', '_X', 'says', 'I', 'am', '_Y'], ['Do', 'you', 'think', 'you', 'are', '_Y', '?']]
-	r3 = ['rule', 3, ['I', 'feel', '_X'], ['Why', 'do', 'you', 'think', 'you', 'feel', '_X', '?']]
-	r4 = ['rule', 4, ['My', 'S_Z', 'thinks', 'I', 'smell', '_Y'], ['Do', 'you', 'think', 'you', 'smell', '_Y', '?']]
-	r5 = ['rule', 5, ['I', 'want', 'to', '_X', 'this', '_Y'], ['What', 'would', 'it', 'mean', 'if', 'you', 'got', 'to', '_X', 'this',  '_Y', '?']]
-	r6 = ['rule', 6, ['I', 'could', 'see', 'if', 'it', '_Y'], ['Do', 'you', 'really', 'think', 'its', 'likely', 'that', 'it', '_Y', '?']]
+	# I am not sure if I am messy
+	r2 = ['rule', 2, ['I', 'am', '_X', 'sure', 'if', 'I', 'am', '_Y' ], ['What', 'makes', 'you', 'think', 'that', 'you', 'are', '_X', '_Y', '?']]
+	# My room is a mess
+	r3 = ['rule', 3, ['My', '_X', 'is', 'a', '_Y'], ['What', 'do', 'you', 'mean', 'by', 'a', 'mess', '?']]
+	# Its messy
+	# Go on
+	# Lets change the topic
+	r4 = ['rule', 4, ['Lets', 'change', 'the', '_X'], ['I', 'see', 'we', 'have', 'touched', 'on', 'a', 'touchy', '_X', '.', 'Lets', 'talk', 'about', 'another', '_X']]
+	# I want to run a marathon
+	r5 = ['rule', 5, ['I', 'want', 'to', '_X', 'a', '_Y'], ['What', 'would', 'it', 'mean', 'if', 'you', 'got', 'to', '_X', 'this',  '_Y', '?']]
+	# I could see if I could run it
+	r6 = ['rule', 6, ['I', 'could', 'see', 'if', 'I', 'could', '_X', '_Y'], ['Do', 'you', 'really', 'think', 'its', 'likely', 'that', 'you', 'could', '_X','_Y', '?']]
+	# Yes
+	# Tell me more
+	# I want to start to run
+	r7 = ['rule', 7, ['I', '_X', 'to', 'start', 'to', '_Y'], ['Makes', 'sense.', 'How', 'often', 'will', 'you', '_Y', '?']]
+	# Pretty often
+	r8 = ['rule', 8, ['_X', '_Y'], ['Can', 'you', 'be', 'more', 'specific', '?']]
+	# 10 times a week
+	# r2 = ['rule', 2, ['My', '_X', 'says', 'I', 'am', '_Y'], ['Do', 'you', 'think', 'you', 'are', '_Y', '?']]
+	# r3 = ['rule', 3, ['I', 'feel', '_X'], ['Why', 'do', 'you', 'think', 'you', 'feel', '_X', '?']]
+	# r4 = ['rule', 4, ['My', 'S_Z', 'thinks', 'I', 'smell', '_Y'], ['Do', 'you', 'think', 'you', 'smell', '_Y', '?']]
+	# r5 = ['rule', 5, ['I', 'want', 'to', '_X', 'this', '_Y'], ['What', 'would', 'it', 'mean', 'if', 'you', 'got', 'to', '_X', 'this',  '_Y', '?']]
+	# r6 = ['rule', 6, ['I', 'could', 'see', 'if', 'it', '_Y'], ['Do', 'you', 'really', 'think', 'its', 'likely', 'that', 'it', '_Y', '?']]
+	# r7 = ['rule', 7, ['Yes', 'I', '_X'], ['What', 'do', 'you', 'think', 'the', 'first', 'step', 'is', 'to', 'not', '_X',  '?']]
+	# r8 = ['rule', 8, ['Yes', 'I', '_X'], ['What', 'do', 'you', 'think', 'the', 'first', 'step', 'is', 'to', 'not', '_X',  '?']]
+
 	#r7 = ['rule', 7, ['_X'], ['Why', 'do', 'you', 'think', 'you', 'are', 'saying', '_X',  '?']]
-	rule_lst = [r1, r2, r3, r4, r5, r6]
+	rule_lst = [r1, r2, r3, r4, r5, r6, r7, r8]
  	return run_eliza(inp, rule_lst)
 
 # if __name__ == "__main__":
