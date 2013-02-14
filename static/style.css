@@ -1,0 +1,14 @@
+body{
+	background-image: url('/static/images/ios-linen.jpg'); 
+}
+
+h1{
+	font-size: 20;
+	color: white;
+	text-align: center;
+	font-family: 'Bad Script', cursive;
+}
+
+.btn-success{
+	font-family: 'Bad Script', cursive;
+}
