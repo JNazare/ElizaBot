@@ -331,9 +331,9 @@ def main(inp):
 	r1 = ['rule', 1, ['My', '_X', 'thinks', 'I', 'am', '_Y'], ['Do', 'you', 'think', 'you', 'are', '_Y', '?']]
 	# I am not sure if I am messy
 	r2 = ['rule', 2, ['I', 'am', '_X', 'sure', 'if', 'I', 'am', '_Y' ], ['What', 'makes', 'you', 'think', 'that', 'you', 'are', '_X', '_Y', '?']]
-	# My room is a mess
+	# My room isnt a mess
 	r3 = ['rule', 3, ['My', '_X', 'is', 'a', '_Y'], ['What', 'do', 'you', 'mean', 'by', 'a', 'mess', '?']]
-	# Its messy
+	# Okay, its messy
 	# Go on
 	# Lets change the topic
 	r4 = ['rule', 4, ['Lets', 'change', 'the', '_X'], ['I', 'see', 'we', 'have', 'touched', 'on', 'a', 'touchy', '_X', '.', 'Lets', 'talk', 'about', 'another', '_X']]
@@ -345,8 +345,8 @@ def main(inp):
 	# Tell me more
 	# I want to start to run
 	r7 = ['rule', 7, ['I', '_X', 'to', 'start', 'to', '_Y'], ['Makes', 'sense.', 'How', 'often', 'will', 'you', '_Y', '?']]
-	# Pretty often
-	r8 = ['rule', 8, ['_X', 'often'], ['Can', 'you', 'be', '_X', 'specific', '?']]
+	# I run often
+	r8 = ['rule', 8, ['I', '_X', 'often'], ['Can', 'you', 'be', '_X', 'specific', '?']]
 	# 10 times a week
 	# r2 = ['rule', 2, ['My', '_X', 'says', 'I', 'am', '_Y'], ['Do', 'you', 'think', 'you', 'are', '_Y', '?']]
 	# r3 = ['rule', 3, ['I', 'feel', '_X'], ['Why', 'do', 'you', 'think', 'you', 'feel', '_X', '?']]
