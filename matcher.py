@@ -346,7 +346,7 @@ def main(inp):
 	# I want to start to run
 	r7 = ['rule', 7, ['I', '_X', 'to', 'start', 'to', '_Y'], ['Makes', 'sense.', 'How', 'often', 'will', 'you', '_Y', '?']]
 	# Pretty often
-	r8 = ['rule', 8, ['_X', '_Y'], ['Can', 'you', 'be', 'more', 'specific', '?']]
+	r8 = ['rule', 8, ['_X', 'often'], ['Can', 'you', 'be', '_X', 'specific', '?']]
 	# 10 times a week
 	# r2 = ['rule', 2, ['My', '_X', 'says', 'I', 'am', '_Y'], ['Do', 'you', 'think', 'you', 'are', '_Y', '?']]
 	# r3 = ['rule', 3, ['I', 'feel', '_X'], ['Why', 'do', 'you', 'think', 'you', 'feel', '_X', '?']]
