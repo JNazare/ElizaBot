@@ -335,7 +335,7 @@ def main(inp):
 	r6 = ['rule', 6, ['I', '_X', 'to', 'start', 'to', '_Y'], ['Makes', 'sense.', 'How', 'often', 'will', 'you', '_Y', '?']]
 	r7 = ['rule', 7, ['I', '_X', 'often'], ['Can', 'you', 'be', '_X', 'specific', '?']]
 	r8 = ['rule', 8, ['I', 'feel', '_X'], ['Why', 'do', 'you', 'think', 'you', 'feel', '_X', '?']]
-	r9 = ['rule', 9, ['My', 'S_Z', 'thinks', 'I', '_Y'], ['Do', 'you', 'think', 'you', '_Y', '?']]
+	r9 = ['rule', 9, ['My', 'S_Z', 'thinks', 'I', '_X'], ['Do', 'you', 'think', 'you', '_X', '?']]
 	r10 = ['rule', 10, ['I', 'want', 'to', '_X', 'this', '_Y'], ['What', 'would', 'it', 'mean', 'if', 'you', 'got', 'to', '_X', 'this',  '_Y', '?']]
 	r11 = ['rule', 11, ['I', 'could', 'see', 'if', 'it', '_Y'], ['Do', 'you', 'really', 'think', 'its', 'likely', 'that', 'it', '_Y', '?']]
 	r12 = ['rule', 12, ['Yes', 'I', '_X'], ['What', 'do', 'you', 'think', 'the', 'first', 'step', 'is', 'to', 'not', '_X',  '?']]
