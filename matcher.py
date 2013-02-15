@@ -318,7 +318,7 @@ def eliza(rule_lst):
 		user_input = string.split(user_input)
 		resp = apply_rules(user_input, rule_lst)
 		if resp == "":
-			resp = default_responses[randrange(0,2)]
+			resp = default_responses[randrange(0,3)]
 		print resp
 		user_input = raw_input()
 	if user_input == "stop":
@@ -335,11 +335,11 @@ def main(inp):
 	r6 = ['rule', 6, ['I', '_X', 'to', 'start', 'to', '_Y'], ['Makes', 'sense.', 'How', 'often', 'will', 'you', '_Y', '?']]
 	r7 = ['rule', 7, ['I', '_X', 'often'], ['Can', 'you', 'be', '_X', 'specific', '?']]
 	r8 = ['rule', 8, ['I', 'feel', '_X'], ['Why', 'do', 'you', 'think', 'you', 'feel', '_X', '?']]
-	r9 = ['rule', 9, ['My', 'S_Z', 'thinks', 'I', '_X'], ['Do', 'you', 'think', 'you', '_X', '?']]
-	r10 = ['rule', 10, ['I', 'want', 'to', '_X', 'this', '_Y'], ['What', 'would', 'it', 'mean', 'if', 'you', 'got', 'to', '_X', 'this',  '_Y', '?']]
-	r11 = ['rule', 11, ['I', 'could', 'see', 'if', 'it', '_Y'], ['Do', 'you', 'really', 'think', 'its', 'likely', 'that', 'it', '_Y', '?']]
-	r12 = ['rule', 12, ['Yes', 'I', '_X'], ['What', 'do', 'you', 'think', 'the', 'first', 'step', 'is', 'to', 'not', '_X',  '?']]
-	
+	r9 = ['rule', 9, ['I', 'want', 'to', '_X', 'this', '_Y'], ['What', 'would', 'it', 'mean', 'if', 'you', 'got', 'to', '_X', 'this',  '_Y', '?']]
+	r10 = ['rule', 10, ['I', 'could', 'see', 'if', 'it', '_Y'], ['Do', 'you', 'really', 'think', 'its', 'likely', 'that', 'it', '_Y', '?']]
+	r11 = ['rule', 11, ['Yes', 'I', '_X'], ['What', 'do', 'you', 'think', 'the', 'first', 'step', 'is', 'to', 'not', '_X',  '?']]
+	r12 = ['rule', 12, ['My', 'S_Z', 'thinks', 'I', 'smell', '_Y'], ['Do', 'you', 'think', 'you', 'smell', '_Y', '?']]
+
 	rule_lst = [r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12]
  	return run_eliza(inp, rule_lst)
 
